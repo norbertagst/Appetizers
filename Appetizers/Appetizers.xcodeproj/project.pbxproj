@@ -22,6 +22,7 @@
 		C912FB0A2B849B6600895122 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C912FB092B849B6600895122 /* Alert.swift */; };
 		C912FB0C2B84A39B00895122 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C912FB0B2B84A39B00895122 /* LoadingView.swift */; };
 		C912FB0E2B84A46500895122 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C912FB0D2B84A46500895122 /* Color+Ext.swift */; };
+		C912FB102B86043700895122 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C912FB0F2B86043700895122 /* RemoteImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		C912FB092B849B6600895122 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		C912FB0B2B84A39B00895122 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		C912FB0D2B84A46500895122 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		C912FB0F2B86043700895122 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				C912FB092B849B6600895122 /* Alert.swift */,
 				C912FB0B2B84A39B00895122 /* LoadingView.swift */,
 				C912FB0D2B84A46500895122 /* Color+Ext.swift */,
+				C912FB0F2B86043700895122 /* RemoteImage.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				C912FB0C2B84A39B00895122 /* LoadingView.swift in Sources */,
 				C912FB042B838F8400895122 /* NetworkManager.swift in Sources */,
 				C912FAEC2B836CF400895122 /* AppetizersApp.swift in Sources */,
+				C912FB102B86043700895122 /* RemoteImage.swift in Sources */,
 				C912FAFA2B836D7400895122 /* AppetizerListView.swift in Sources */,
 				C912FB0A2B849B6600895122 /* Alert.swift in Sources */,
 				C912FAFE2B836D9900895122 /* OrderView.swift in Sources */,
