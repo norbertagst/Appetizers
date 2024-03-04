@@ -30,6 +30,7 @@
 		C996C0642B88A22E003832A0 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C996C0632B88A22E003832A0 /* String+Ext.swift */; };
 		C996C0662B88AE35003832A0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C996C0652B88AE35003832A0 /* User.swift */; };
 		C9F34A7D2B95F1C000AB4FF3 /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F34A7C2B95F1C000AB4FF3 /* EmptyState.swift */; };
+		C9F34A7F2B96120A00AB4FF3 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F34A7E2B96120A00AB4FF3 /* Order.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		C996C0632B88A22E003832A0 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		C996C0652B88AE35003832A0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		C9F34A7C2B95F1C000AB4FF3 /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
+		C9F34A7E2B96120A00AB4FF3 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 			children = (
 				C912FAFF2B837EE200895122 /* Appetizer.swift */,
 				C996C0652B88AE35003832A0 /* User.swift */,
+				C9F34A7E2B96120A00AB4FF3 /* Order.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				C912FB022B83847200895122 /* AppetizerListCell.swift in Sources */,
 				C912FB242B865DD700895122 /* XDismissButton.swift in Sources */,
 				C912FB062B83910200895122 /* APError.swift in Sources */,
+				C9F34A7F2B96120A00AB4FF3 /* Order.swift in Sources */,
 				C996C0622B889E8F003832A0 /* AccountViewModel.swift in Sources */,
 				C912FAFC2B836D8900895122 /* AccountView.swift in Sources */,
 				C912FB0E2B84A46500895122 /* Color+Ext.swift in Sources */,

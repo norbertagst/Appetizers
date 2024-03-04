@@ -8,39 +8,34 @@
 import SwiftUI
 
 struct OrderView: View {
-    @State private var orderItems = MockData.orderItems
-    
+    @EnvironmentObject var order: Order
     var body: some View {
         NavigationView {
             ZStack {
                 VStack {
                     List {
-                        ForEach(orderItems) { appetizer  in
+                        ForEach(order.items) { appetizer  in
                             AppetizerListCell(appetizer: appetizer)
                         }
-                        .onDelete(perform: deleteItems)
+                        .onDelete(perform: order.deleteItems)
                     }
                     .listStyle(PlainListStyle())
                     
                     Button {
                         print("Order placed")
                     } label: {
-                        APButton(title: "$99.99 - Place order")
+                        APButton(title: "$\(order.totalPrice, specifier: "%.2f") - Place order")
                     }
                     .padding(.bottom, 30)
                 }
                 
-                if orderItems.isEmpty {
+                if order.items.isEmpty {
                     EmptyState(imageName: "empty-order",
                                message: "You have no items in your order.\nPlease add an appetizer!")
                 }
             }
             .navigationTitle("Orders")
         }
-    }
-    
-    func deleteItems(at offsets: IndexSet) {
-        orderItems.remove(atOffsets: offsets)
     }
 }
 
