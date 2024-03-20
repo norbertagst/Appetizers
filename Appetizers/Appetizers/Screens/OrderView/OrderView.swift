@@ -24,8 +24,10 @@ struct OrderView: View {
                     Button {
                         print("Order placed")
                     } label: {
-                        APButton(title: "$\(order.totalPrice, specifier: "%.2f") - Place order")
+//                        APButton(title: "$\(order.totalPrice, specifier: "%.2f") - Place order")
+                        Text("$\(order.totalPrice, specifier: "%.2f") - Place order")
                     }
+                    .modifier(StandardButtonStyle())
                     .padding(.bottom, 30)
                 }
                 
